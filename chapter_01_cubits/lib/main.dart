@@ -27,5 +27,5 @@ void main() {
 
   Future.delayed(const Duration(seconds: 2), () => counterCubit.decrement());
 
-  counterCubit.close();
+  Future.delayed(const Duration(seconds: 3), () => counterCubit.close());
 }

@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 
-/// Cubit holds a state of an object of a given type
+/// [Cubit] holds a state of an object of a given type
 ///
 /// A state is just a collection of values at a moment in time
 /// Here, the Cubit is type of [int], so the state will hold a value of type [int]
