@@ -1,0 +1,27 @@
+# Chapter 01 - Cubits
+
+## Index
+
+#### 1. [State](#1-what-is-state)
+#### 2. [Cubit](#2-what-is-a-cubit)
+
+## 1. What is State?
+
+- A state is just a collection of values at a moment in time
+- For example, temperature of a room at a given time can be represented with a state, like this,
+
+    - **NormalState** : When temperature of the room is 24°C
+    - **ColdState** : When temperature of the room is below 24°C
+    - **HotState** : When temperature of the room is above 24°C
+
+##### [Go back to Index](#index)
+
+## 2. What is a Cubit?
+
+- Cubit holds a state of an object of a given type
+- When a function is called, the Cubit emits a new state which can be,
+
+    - Accessed via state getter
+    - Listened to via a Stream
+
+##### [Go back to Index](#index)
