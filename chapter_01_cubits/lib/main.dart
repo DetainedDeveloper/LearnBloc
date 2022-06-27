@@ -2,9 +2,9 @@ import 'dart:async';
 
 import 'package:chapter_01_cubits/counter_cubit.dart';
 
-/// Listen to the stream of states emitted by [CounterCubit]
+/// The [CounterCubit] will emit a new state whenever a function is called
 ///
-/// The [CounterCubit] will emit a new state whenever a method is called
+/// These changes can be listened via [Stream]
 ///
 ///
 /// The output of following code should look like this,
