@@ -31,7 +31,7 @@
 
 ##### [Go back to Index](#index)
 
-## 3. **`UI, Logic and Data`**
+## 3. **UI, Logic and Data**
 
 - When the application becomes complex, it is easy to mix up UI with Logic or Data, which can mess up the entire flow of the app
 
@@ -41,7 +41,7 @@
 
     ```
     UI -> Event -> Bloc -> Data Source
-    ^                           |
-    |                           v
+                                |
+                                v
     UI <- State <- Bloc <- Data / Model
     ```
